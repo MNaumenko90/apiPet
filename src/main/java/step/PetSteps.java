@@ -13,7 +13,7 @@ public class PetSteps {
 
     public GetPetDto getPet() {
         return requests.get(request(),
-                PetEndpoints.GET_USER.getEndpoints()).then().spec(ok())
+                PetEndpoints.GET_PET.getEndpoints()).then().spec(ok())
                 .extract().body().as(GetPetDto.class);
     }
 }

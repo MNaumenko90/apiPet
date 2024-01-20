@@ -6,8 +6,7 @@ public class PetBuilders {
 
     public PetDto petDefaultBuilder() {
         return PetDto.builder()
-                .userName("")
-                .password("")
+                .name("Bobby good dog")
                 .build();
     }
 }

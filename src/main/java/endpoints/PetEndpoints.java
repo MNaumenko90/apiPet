@@ -1,7 +1,8 @@
 package endpoints;
 
 public enum PetEndpoints {
-    GET_USER("/Account/v1/User/");
+    ADD_PET("/pet"),
+    GET_PET("/pet/{petId}");
 
     private final String endpoints;
 
