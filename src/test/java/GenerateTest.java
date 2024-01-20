@@ -6,6 +6,8 @@ public class GenerateTest {
 
     private final PetSteps steps = new PetSteps();
 
-//    @Test
-
+    @Test
+void shouldBeAddPet() {
+    steps.getPet();
+}
 }
